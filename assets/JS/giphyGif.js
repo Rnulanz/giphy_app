@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var shows =['Simpsons', 'Family Guy', 'Archer', 'Full House'];
 // show API
 function displayShowInfo(){
@@ -96,3 +98,5 @@ if(state === 'still'){
 $(document).on('click', '.show', displayShowInfo);
 $(document).on('click', '.giphy-image', imgClick);
 renderButtons();
+
+})
