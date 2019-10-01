@@ -1,0 +1,34 @@
+body{
+    background-image: url(../images/854197-widescreen-looney-tunes-background-1920x1091-for-lockscreen.jpg);
+    color: aqua;
+}
+
+
+#shows-view{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 1em 0em;
+    
+}
+.giphy-image{
+    border: 1px solid black;
+    position: relative;
+    margin: 1em 1em;
+    height: 100%;
+   
+}
+
+.show, #add-show{
+    border: 1px solid lightgrey;
+    margin-left: .5em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+}
+
+.btn-delete{
+    border-left: 1px solid black;
+    border-radius: 0;
+}
+
+
