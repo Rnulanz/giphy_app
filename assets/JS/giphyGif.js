@@ -89,7 +89,7 @@ if(state === 'still'){
 }else{
     img.attr({
         src: still,
-        'data-state': 'animate'
+        'data-state': 'still'
     });
 }
 
